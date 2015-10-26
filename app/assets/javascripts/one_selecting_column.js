@@ -6,7 +6,7 @@ $(document).ready(function(){
 (function($){
   $.fn.selecting_column = function(options){
     var defaults = {
-    }
+    };
 
     options = $.extend(defaults, options);
 

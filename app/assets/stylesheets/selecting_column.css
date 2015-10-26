@@ -1,6 +1,38 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 td {
   cursor: pointer;
 }
-.hovered {
-  background-color: #98fb98;
+.table {
+  border-collapse: separate;
+  border-spacing: 1px;
+  margin-bottom: 40px;
+  text-align: center;
 }
+
+.table td,
+.table th {
+  color: #FFF;
+  line-height: 1.2;
+  padding: 18px 15px;
+  vertical-align: middle;
+  background-color: #144C64;
+  cursor: pointer;
+  border: none;
+}
+.table > thead > tr > td.hovered,
+.table > thead > tr > th.hovered {
+  background-color: #00B22D;
+}
+.table > tbody > tr > td.hovered,
+.table > tbody > tr > th.hovered {
+  background-color: #00B22D;
+}
+table tbody > tr:nth-of-type(2n+1) td {
+  background-color: #0E455E;
+}
+
