@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-td {
-  cursor: pointer;
-}
 .table {
   border-collapse: separate;
   border-spacing: 1px;
